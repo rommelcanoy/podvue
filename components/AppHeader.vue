@@ -56,7 +56,7 @@ const navLinks = [
                     <ElementsThemeSwitcher />
                     <div class="hidden lg:flex lg:items-center gap-4">
                         <AtomsLinkBtn href="#" variant="secondary">
-                            Signin
+                            Sign in
                         </AtomsLinkBtn>
                         <AtomsLinkBtn href="#" variant="primary">
                             Join Us
@@ -87,7 +87,7 @@ const navLinks = [
                                     <li
                                         class="flex select-none cursor-pointer items-center gap-3 px-2 py-2 rounded-md transition hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-200">
                                         <NuxtLink to="#">
-                                            Signin
+                                            Sign in
                                         </NuxtLink>
                                     </li>
                                 </ul>
