@@ -20,7 +20,7 @@
                 </div>
 
                 <BlocksFooterNavBlock title="Enterprise" :links="quickLinks" />
-                <BlocksFooterNavBlock title="Ressources" :links="ressourcesLinks" />
+                <BlocksFooterNavBlock title="Resources" :links="resourcesLinks" />
                 <BlocksFooterNavBlock title="Support" :links="supportLinks" />
                 <BlocksFooterNavBlock title="Enterprise" :links="quickLinks" />
             </div>
@@ -77,10 +77,10 @@ const quickLinks = [
         text: "Solution"
     }
 ]
-const ressourcesLinks = [
+const resourcesLinks = [
     {
         href: "#",
-        text: "Developpers"
+        text: "Developers"
     },
     {
         href: "#",
@@ -95,7 +95,7 @@ const ressourcesLinks = [
 const supportLinks = [
     {
         href: "#",
-        text: "Contact-us"
+        text: "Contact us"
     },
     {
         href: "#",
